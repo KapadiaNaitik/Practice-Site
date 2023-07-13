@@ -1,0 +1,451 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    font-family: Calibri;
+    font-weight: 700;
+    background: #f4eedb;
+  }
+
+  header {
+    text-align: center;
+    color: black;
+    line-height: 100%;
+  }
+
+  header h1 {
+    font-size: 60px;
+  }
+
+  header h2 {
+    font-size: 38px;
+  }
+
+  .parent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .heading {
+    color: #0a4988;
+    line-height: 50%;
+  }
+
+  .boxone {
+    padding-left: 3%;
+
+    width: 34%;
+  }
+  .boxtwo {
+    padding-top: 3%;
+
+    width: 60%;
+  }
+  .subhead {
+    color: #0a4988;
+    font-size: 45px;
+  }
+
+  .quote {
+    color: #777777;
+    width: 90%;
+  }
+
+  .para {
+    color: black;
+    width: 90%;
+  }
+
+  .boxone img {
+    padding-top: 5%;
+    position: relative;
+    width: 80%;
+    left: 20%;
+  }
+
+  .name {
+    color: black;
+    font-size: 32px;
+  }
+
+  .boxtwo .text {
+    height: 50%;
+  }
+  .contains {
+    padding-left: 10%;
+    position: relative;
+    height: 320px;
+  }
+  .bbox {
+    position: absolute;
+    top: 2%;
+    z-index: -10;
+    height: 310px;
+    width: 500px;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .contains img {
+    position: absolute;
+    left: 12%;
+    z-index: 5;
+    height: 300px;
+    width: 490px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  b {
+    font-size: 36px;
+  }
+  .boxthree {
+    padding-left: 3%;
+
+    width: 60%;
+  }
+  .boxfour {
+    padding-top: 3%;
+    margin-right: 10%;
+    width: 40%;
+  }
+
+  .boxfour .contains {
+    position: relative;
+  }
+  .boxfour .bbox {
+    position: absolute;
+    top: 2%;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .boxfour .contains img {
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .containsdown {
+    display: none;
+  }
+  .containsmobile {
+    display: none;
+  }
+  .containsmobileman {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-family: Calibri;
+    font-weight: 700;
+    background: #f4eedb;
+  }
+
+  header {
+    text-align: center;
+    color: black;
+    line-height: 100%;
+  }
+
+  header h1 {
+    font-size: 60px;
+  }
+
+  header h2 {
+    font-size: 38px;
+  }
+
+  .heading {
+    color: #0a4988;
+    line-height: 20%;
+  }
+
+  .boxone {
+    position: relative;
+    padding-left: 3%;
+
+    width: 100%;
+  }
+  .boxtwo {
+    padding-top: 20%;
+    padding-left: 3%;
+    width: 100%;
+  }
+  .subhead {
+    color: #0a4988;
+    font-size: 50px;
+  }
+
+  .quote {
+    color: #777777;
+    width: 70%;
+  }
+
+  .para {
+    color: black;
+    width: 70%;
+  }
+  .para2 {
+    color: black;
+    width: 40%;
+  }
+
+  .boxone img {
+    position: absolute;
+    top: 60%;
+    width: 40%;
+    left: 50%;
+  }
+
+  .name {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50%;
+  }
+  .contains {
+    display: none;
+  }
+  .bbox {
+    position: absolute;
+    left: 90%;
+    top: 30%;
+    z-index: -10;
+    height: 210px;
+    width: 400px;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .containsdown img {
+    position: absolute;
+    left: 93%;
+    z-index: 5;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  b {
+    font-size: 48px;
+  }
+  .boxthree {
+    padding-left: 3%;
+
+    width: 100%;
+  }
+  .boxfour {
+    padding-top: 3%;
+
+    width: 40%;
+  }
+
+  .boxfour contains {
+    position: relative;
+  }
+  .boxfour bbox {
+    position: absolute;
+    top: 2%;
+    z-index: -10;
+    height: 80%;
+    width: 20%;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .boxfour .contains img {
+    position: absolute;
+    left: 10%;
+    z-index: 5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .containsdown {
+    line-height: 0;
+    display: inline;
+    padding-left: 50%;
+    position: relative;
+    height: 100px;
+    width: 100%;
+  }
+  .containsmobile {
+    display: none;
+  }
+  .containsmobileman {
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  body {
+    font-family: Calibri;
+    font-weight: 700;
+    background: #f4eedb;
+    line-height: 140%;
+  }
+
+  header {
+    text-align: center;
+    color: black;
+    line-height: 60%;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  .heading {
+    color: #0a4988;
+    line-height: 60%;
+  }
+
+  .boxone {
+    position: relative;
+    padding-left: 3%;
+
+    width: 100%;
+  }
+  .boxtwo {
+    padding-left: 3%;
+    width: 100%;
+  }
+  .subhead {
+    color: #0a4988;
+    font-size: 20px;
+  }
+
+  .quote {
+    color: #777777;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .para {
+    font-size: 12px;
+    color: black;
+    width: 100%;
+  }
+
+  .boxone img {
+    display: none;
+    position: absolute;
+    top: 60%;
+    width: 40%;
+    left: 50%;
+  }
+
+  .name {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50%;
+  }
+  .contains {
+    display: none;
+  }
+  .containsmobile .bbox {
+    position: absolute;
+    height: 165px;
+    width: 200px;
+    margin-left: 22%;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .containsmobile img {
+    margin-bottom: 40%;
+    position: absolute;
+    max-width: 100%;
+    z-index: 5;
+    height: 160px;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .containsmobileman .bbox {
+    margin-top: 31%;
+    position: absolute;
+    height: 255px;
+    width: 180px;
+    margin-left: 29%;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .containsmobileman img {
+    margin-top: 30%;
+    margin-left: 30%;
+    position: absolute;
+    max-width: 100%;
+    z-index: 5;
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  b {
+    font-size: 20px;
+  }
+  .boxthree {
+    padding-left: 3%;
+
+    width: 100%;
+  }
+  .boxfour {
+    padding-top: 3%;
+
+    width: 40%;
+  }
+
+  .boxfour contains {
+    position: relative;
+  }
+  .boxfour bbox {
+    position: absolute;
+    top: 2%;
+    z-index: -10;
+    height: 80%;
+    width: 20%;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .boxfour .contains img {
+    position: absolute;
+    left: 10%;
+    z-index: 5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .containsmobile {
+    align-items: center;
+    position: relative;
+    height: 180px;
+  }
+  .containsdown {
+    display: none;
+  }
+
+  .boxthree .para2 {
+    width: 50%;
+  }
+  .containsmobileman {
+    margin-left: 20%;
+    height: 250px;
+  }
+}

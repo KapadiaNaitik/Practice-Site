@@ -1,22 +1,53 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
+  .para4 {
+    display: none;
+  }
   body {
-    font-family: Calibri;
-    font-weight: 700;
+    font-size: 16px;
     background: #f4eedb;
+    overflow-x: hidden;
   }
 
-  header {
+  .heading {
     text-align: center;
-    color: black;
-    line-height: 100%;
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
   }
 
-  header h1 {
-    font-size: 60px;
+  .underline {
+    stroke-width: 3px;
+    stroke: #0a4988;
+    width: 100%;
+    max-width: 9.875rem;
+    height: 3rem;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto;
+    line-height: 0.5rem;
   }
 
-  header h2 {
-    font-size: 38px;
+  .title {
+    text-align: center;
+    color: #000;
+    font-family: Calibri;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+  }
+
+  .sub-title {
+    text-align: center;
+    color: #000;
+    font-family: Calibri;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
   .parent {
@@ -24,257 +55,497 @@
     justify-content: space-between;
   }
 
-  .heading {
+  .boxone .subhead {
+    padding-left: 3rem;
     color: #0a4988;
-    line-height: 50%;
+    font-family: Calibri;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
-  .boxone {
-    padding-left: 3%;
-
-    width: 34%;
+  .boxone .quote {
+    padding-left: 3rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 36.875rem;
   }
+
+  .boxone .para {
+    padding-left: 3rem;
+    max-width: 36.875rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .image {
+    padding-right: 3rem;
+    max-width: 37.59375rem;
+    height: auto;
+    flex-shrink: 0;
+    width: 100%;
+  }
+
   .boxtwo {
-    padding-top: 3%;
-
-    width: 60%;
+    padding-right: 2rem;
   }
-  .subhead {
-    color: #0a4988;
-    font-size: 45px;
+  .boxtwo .contains {
+    position: relative; /* Set containing element as the reference for absolute positioning */
   }
 
-  .quote {
-    color: #777777;
-    width: 90%;
-  }
-
-  .para {
-    color: black;
-    width: 90%;
-  }
-
-  .boxone img {
-    padding-top: 5%;
-    position: relative;
-    width: 80%;
-    left: 20%;
-  }
-
-  .name {
-    color: black;
-    font-size: 32px;
-  }
-
-  .boxtwo .text {
-    height: 50%;
-  }
-  .contains {
-    padding-left: 10%;
-    position: relative;
-    height: 320px;
-  }
-  .bbox {
-    position: absolute;
-    top: 2%;
-    z-index: -10;
-    height: 310px;
-    width: 500px;
+  .boxtwo .bbox {
+    position: relative; /* Ensure relative positioning for containing element */
+    max-width: 43rem;
+    height: 28.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
     background: #0a4988;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
-  .contains img {
+  .boxtwo .overlay-image {
     position: absolute;
-    left: 12%;
-    z-index: 5;
-    height: 300px;
-    width: 490px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: -0.5rem;
+    right: -0.5rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 0.5rem);
+    z-index: 1;
   }
 
-  b {
-    font-size: 36px;
+  .boxtwo .subhead {
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 54.375rem;
+    height: 4.5625rem;
+    flex-shrink: 0;
   }
-  .boxthree {
-    padding-left: 3%;
 
-    width: 60%;
+  .boxtwo .subhead i {
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 3.375rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
   }
+
+  .boxtwo b {
+    color: #000;
+    font-family: Calibri;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxtwo .linkedin {
+    margin-top: 3rem;
+    width: 2.375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+  }
+
+  .boxtwo .quote {
+    max-width: 55.125rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxtwo .collective {
+    max-width: 45.125rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
   .boxfour {
-    padding-top: 3%;
-    margin-right: 10%;
-    width: 40%;
+    padding-right: 3rem;
   }
 
   .boxfour .contains {
     position: relative;
+    margin-top: 8rem;
   }
-  .boxfour .bbox {
-    position: absolute;
-    top: 2%;
+
+  .boxfour .contains .bbox {
+    position: relative;
+    max-width: 23.25rem;
+    height: 32.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
     background: #0a4988;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .boxfour .overlay-image {
+    position: relative;
+    top: -0.5rem;
+    right: -0.5rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 0.5rem);
+    z-index: 1;
   }
 
-  .boxfour .contains img {
-    position: absolute;
-    z-index: 5;
-    border-radius: 10px;
+  .boxthree {
+    padding-left: 3rem;
+  }
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  .boxthree b {
+    color: #000;
+    font-family: Calibri;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxthree .linkedin {
+    margin-top: 3rem;
+    width: 2.375rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+  }
+
+  .boxthree .quote {
+    max-width: 44.8125rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxthree .collective {
+    max-width: 45.125rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
   .containsdown {
     display: none;
   }
+
   .containsmobile {
     display: none;
   }
+
   .containsmobileman {
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .para4 {
+    display: hidden;
+  }
   body {
-    font-family: Calibri;
-    font-weight: 700;
+    font-size: 16px;
     background: #f4eedb;
-  }
-
-  header {
-    text-align: center;
-    color: black;
-    line-height: 100%;
-  }
-
-  header h1 {
-    font-size: 60px;
-  }
-
-  header h2 {
-    font-size: 38px;
+    overflow-x: hidden;
   }
 
   .heading {
+    text-align: center;
     color: #0a4988;
-    line-height: 20%;
+    font-family: Calibri;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+  }
+
+  .underline {
+    stroke-width: 3px;
+    stroke: #0a4988;
+    width: 9.875rem;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto;
+    line-height: 0.5rem;
+  }
+
+  .title {
+    text-align: center;
+    color: #000;
+    font-family: Calibri;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+  }
+
+  .sub-title {
+    color: #000;
+    font-family: Calibri;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+    text-align: center;
   }
 
   .boxone {
     position: relative;
-    padding-left: 3%;
+    padding-left: 3rem;
 
     width: 100%;
   }
   .boxtwo {
-    padding-top: 20%;
-    padding-left: 3%;
+    padding-top: 7rem;
+    padding-left: 3rem;
     width: 100%;
   }
-  .subhead {
+  .boxone .subhead {
     color: #0a4988;
-    font-size: 50px;
+    font-family: Calibri;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
-  .quote {
-    color: #777777;
-    width: 70%;
+  .boxone .quote {
+    width: 36.875rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
-  .para {
-    color: black;
-    width: 70%;
-  }
-  .para2 {
-    color: black;
+  .boxone .para {
     width: 40%;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
   .boxone img {
+    top: 50%;
     position: absolute;
-    top: 60%;
-    width: 40%;
-    left: 50%;
+    width: 25.875rem;
+    left: 40%;
   }
-
-  .name {
-    color: black;
-    font-size: 25px;
-    margin-bottom: 50%;
+  .boxtwo .collective1 {
+    flex-shrink: 0;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .boxtwo .collective2 {
+    color: #000;
+    font-family: Calibri;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .boxtwo .para {
+    width: 70%;
+  }
+  .boxtwo .para2 {
+    width: 40%;
+  }
+  .boxtwo .subhead {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #0a4988;
+    text-align: left;
+    font-family: Calibri;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo .subhead i {
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo .quote {
+    width: 44.8125rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo b {
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo .linkedin {
+    width: 1.6875rem;
+    height: 1.6875rem;
+    flex-shrink: 0;
   }
   .contains {
     display: none;
   }
-  .bbox {
+  .boxtwo .containsdown {
+    line-height: 0;
+    display: inline;
+    left: 40%;
+    position: relative;
+    width: 100%;
+  }
+  .boxtwo .containsdown .bbox {
     position: absolute;
-    left: 90%;
-    top: 30%;
+    left: 80%;
+    top: 50%;
     z-index: -10;
-    height: 210px;
-    width: 400px;
+    width: 25.20556rem;
+    height: 17.33556rem;
+    flex-shrink: 0;
     background: #0a4988;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 0.625rem;
   }
 
-  .containsdown img {
-    position: absolute;
-    left: 93%;
-    z-index: 5;
-    height: 200px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  .boxtwo .containsdown img {
+    top: -0.5rem;
+    margin-left: 0.5rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 0.5rem);
   }
 
-  b {
-    font-size: 48px;
-  }
   .boxthree {
-    padding-left: 3%;
+    padding-top: 2rem;
+  }
+
+  .boxthree b {
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxthree .linkedin {
+    width: 1.6875rem;
+    height: 1.6875rem;
+    flex-shrink: 0;
+  }
+
+  .boxthree {
+    padding-left: 3rem;
 
     width: 100%;
   }
+  .boxthree .quote {
+    width: 80%;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxthree .collective1 {
+    width: 70%;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .boxthree .collective2 {
+    width: 50%;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .boxthree .containsdown {
+    line-height: 0;
+    display: inline;
+    left: 80%;
+    position: relative;
+    width: 100%;
+  }
+  .boxthree .containsdown .bbox {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    z-index: -10;
+    width: 17.1875rem;
+    height: 23.8125rem;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .boxthree .containsdown img {
+    top: -0.5rem;
+    margin-left: 0.5rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 0.5rem);
+  }
+
   .boxfour {
     padding-top: 3%;
 
     width: 40%;
   }
 
-  .boxfour contains {
-    position: relative;
-  }
-  .boxfour bbox {
-    position: absolute;
-    top: 2%;
-    z-index: -10;
-    height: 80%;
-    width: 20%;
-    background: #0a4988;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-  }
-
-  .boxfour .contains img {
-    position: absolute;
-    left: 10%;
-    z-index: 5;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  .containsdown {
-    line-height: 0;
-    display: inline;
-    padding-left: 50%;
-    position: relative;
-    height: 100px;
-    width: 100%;
-  }
   .containsmobile {
     display: none;
   }
@@ -283,67 +554,6 @@
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  body {
-    font-family: Calibri;
-    font-weight: 700;
-    background: #f4eedb;
-    line-height: 140%;
-  }
-
-  header {
-    text-align: center;
-    color: black;
-    line-height: 60%;
-  }
-
-  header h1 {
-    font-size: 25px;
-  }
-
-  header h2 {
-    font-size: 22px;
-  }
-
-  .heading {
-    color: #0a4988;
-    line-height: 60%;
-  }
-
-  .boxone {
-    position: relative;
-    padding-left: 3%;
-
-    width: 100%;
-  }
-  .boxtwo {
-    padding-left: 3%;
-    width: 100%;
-  }
-  .subhead {
-    color: #0a4988;
-    font-size: 20px;
-  }
-
-  .quote {
-    color: #777777;
-    font-size: 18px;
-    width: 100%;
-  }
-
-  .para {
-    font-size: 12px;
-    color: black;
-    width: 100%;
-  }
-
-  .boxone img {
-    display: none;
-    position: absolute;
-    top: 60%;
-    width: 40%;
-    left: 50%;
-  }
-
   .name {
     color: black;
     font-size: 25px;
@@ -447,5 +657,301 @@
   .containsmobileman {
     margin-left: 20%;
     height: 250px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  body {
+    font-size: 16px;
+    background: #f4eedb;
+    overflow-x: hidden;
+  }
+
+  .heading {
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+    text-align: center;
+  }
+
+  .underline {
+    stroke-width: 2px;
+    stroke: #0a4988;
+    width: 5.5rem;
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto;
+    line-height: 0.5rem;
+  }
+
+  .title {
+    color: #000;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+  }
+
+  .sub-title {
+    color: #000;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.5rem;
+  }
+
+  .boxone {
+    position: relative;
+
+    width: 100%;
+  }
+  .boxtwo {
+    width: 100%;
+  }
+  .boxone .subhead {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxone .quote {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxone .para {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .boxone img {
+    display: none;
+    top: 50%;
+    position: absolute;
+    width: 25.875rem;
+    left: 40%;
+  }
+  .boxtwo .collective1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .boxtwo .collective2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .boxtwo .subhead {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #0a4988;
+    text-align: left;
+    font-family: Calibri;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo .subhead i {
+    color: #0a4988;
+    font-family: Calibri;
+    font-size: 1.375rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo .quote {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo b {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxtwo .linkedin {
+    width: 1.125rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+  }
+  .contains .containsdown {
+    display: none;
+  }
+  .boxtwo .containsmobile {
+    line-height: 0;
+    display: inline;
+    left: 12.5%;
+    position: relative;
+    width: 100%;
+  }
+  .boxtwo .containsmobile .bbox {
+    position: absolute;
+    z-index: -10;
+    width: 14.85188rem;
+    height: 9.90606rem;
+    flex-shrink: 0;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
+  }
+
+  .boxtwo .containsmobile img {
+    top: -0.5rem;
+    margin-left: -3rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: calc(100% - 0.05rem);
+    height: calc(100% - 0.05rem);
+  }
+
+  .boxthree {
+    padding-top: 12rem;
+  }
+
+  .boxthree b {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .boxthree .linkedin {
+    width: 1.125rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+  }
+
+  .boxthree {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    width: 100%;
+  }
+  .boxthree .quote {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #777;
+    font-family: Calibri;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .boxthree .collective1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .para3 {
+    display: none;
+  }
+
+  .boxthree .collective2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #000;
+    font-family: Calibri;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .boxthree .containsdown {
+    line-height: 0;
+    display: inline;
+    left: 60%;
+    position: relative;
+    width: 100%;
+  }
+  .boxthree .containsdown .bbox {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    z-index: -10;
+    width: 7.8125rem;
+    height: 10.875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .boxthree .containsdown img {
+    top: -0.5rem;
+    margin-left: 0.5rem;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 0.5rem);
+  }
+
+  .containsmobile {
+    display: none;
+  }
+  .containsmobileman {
+    display: none;
   }
 }

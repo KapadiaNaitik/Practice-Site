@@ -1,4 +1,7 @@
-@media only screen and (min-width: 1025px) {
+* {
+  font-family: Calibri;
+}
+@media only screen and (min-width: 1201px) {
   .para4 {
     display: none;
   }
@@ -41,6 +44,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 0.5rem;
+    margin-top: 2.5rem;
   }
 
   .sub-title {
@@ -51,15 +55,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 2.0625rem;
+    margin-bottom: 4.3125rem;
   }
-
+  .boxone {
+    width: 40%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
   .parent {
     display: flex;
     justify-content: space-between;
   }
 
   .boxone .subhead {
-    padding-left: 3rem;
     color: #0a4988;
     font-family: Calibri;
     font-size: 3.375rem;
@@ -69,19 +78,15 @@
   }
 
   .boxone .quote {
-    padding-left: 3rem;
     color: #777;
     font-family: Calibri;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    max-width: 36.875rem;
   }
 
   .boxone .para {
-    padding-left: 3rem;
-    max-width: 36.875rem;
     color: #000;
     font-family: Calibri;
     font-size: 1.125rem;
@@ -91,16 +96,15 @@
   }
 
   .image {
-    padding-right: 3rem;
-    max-width: 37.59375rem;
+    aspect-ratio: 37.59375rem/39.07144rem;
+    max-width: 30rem;
     height: auto;
-    flex-shrink: 0;
-    width: 100%;
   }
 
   .boxtwo {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    width: 60%;
+    margin-left: 3rem;
+    margin-right: 5rem;
   }
   .boxtwo .contains {
     position: relative;
@@ -108,9 +112,10 @@
   }
 
   .boxtwo .bbox {
-    position: relative; /* Ensure relative positioning for containing element */
+    position: relative;
+    aspect-ratio: 43/28.4375;
     max-width: 43rem;
-    height: 28.4375rem;
+
     flex-shrink: 0;
     border-radius: 0.625rem;
     background: #0a4988;
@@ -136,9 +141,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    max-width: 54.375rem;
-    height: 4.5625rem;
     flex-shrink: 0;
+    margin-top: 4.1875rem;
+    margin-bottom: 0;
   }
 
   .boxtwo .subhead i {
@@ -150,7 +155,32 @@
     line-height: normal;
   }
 
-  .boxtwo b {
+  .headingwithimg {
+    position: relative;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.562rem;
+    margin-bottom: 0;
+  }
+
+  .headingwithimg p {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .headingwithimg a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .headingwithimg img {
+    margin-top: 0;
+    width: 2.375rem;
+    height: 2.375rem;
+  }
+
+  /* .boxtwo b {
     color: #000;
     font-family: Calibri;
     font-size: 2rem;
@@ -164,10 +194,10 @@
     width: 2.375rem;
     height: 2.375rem;
     flex-shrink: 0;
-  }
+  } */
 
   .boxtwo .quote {
-    max-width: 55.125rem;
+    margin-top: 0;
     color: #777;
     font-family: Calibri;
     font-size: 1.5rem;
@@ -177,7 +207,6 @@
   }
 
   .boxtwo .collective {
-    max-width: 45.125rem;
     color: #000;
     font-family: Calibri;
     font-size: 1.125rem;
@@ -187,19 +216,20 @@
   }
 
   .boxfour {
-    padding-right: 3rem;
+    margin-right: 3rem;
+    width: 50%;
   }
 
   .boxfour .contains {
+    margin-right: 3rem;
     position: relative;
     margin-top: 8rem;
   }
 
   .boxfour .contains .bbox {
+    margin-left: 5rem;
     position: relative;
     max-width: 23.25rem;
-    height: 32.3125rem;
-    right: 4rem;
     flex-shrink: 0;
     border-radius: 1.25rem;
     background: #0a4988;
@@ -218,7 +248,8 @@
   }
 
   .boxthree {
-    padding-left: 3rem;
+    width: 50%;
+    padding-left: 5rem;
   }
 
   .boxthree b {
@@ -238,7 +269,6 @@
   }
 
   .boxthree .quote {
-    max-width: 44.8125rem;
     color: #777;
     font-family: Calibri;
     font-size: 1.5rem;
@@ -248,7 +278,6 @@
   }
 
   .boxthree .collective {
-    max-width: 45.125rem;
     color: #000;
     font-family: Calibri;
     font-size: 1.125rem;
@@ -269,7 +298,7 @@
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .para4 {
     display: hidden;
   }
@@ -296,7 +325,6 @@
     flex-shrink: 0;
     display: block;
     margin: 0 auto;
-    line-height: 0.5rem;
   }
 
   .title {
@@ -307,6 +335,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 0.5rem;
+    margin-top: 1.6875rem;
   }
 
   .sub-title {
@@ -317,17 +346,22 @@
     font-weight: 700;
     line-height: 0.5rem;
     text-align: center;
+    margin-top: 1.5625rem;
+    margin-bottom: 6.875rem;
   }
 
   .boxone {
     position: relative;
-    padding-left: 3rem;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
 
     width: 100%;
   }
   .boxtwo {
-    padding-top: 7rem;
-    padding-left: 3rem;
+    margin-top: 10%;
+    margin-left: 5.5rem;
+
+    margin-right: 5.5rem;
     width: 100%;
   }
   .boxone .subhead {
@@ -340,7 +374,7 @@
   }
 
   .boxone .quote {
-    width: 36.875rem;
+    width: 80%;
     color: #777;
     font-family: Calibri;
     font-size: 1.5rem;
@@ -357,13 +391,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    shape-outside: url(../images/maze.png);
   }
 
   .boxone img {
+    left: 45%;
+    aspect-ratio: 25.875/26.92356;
+    max-width: 20rem;
     top: 50%;
     position: absolute;
-    width: 25.875rem;
-    left: 40%;
   }
   .boxtwo .collective1 {
     flex-shrink: 0;
@@ -387,8 +423,11 @@
   }
   .boxtwo .para2 {
     width: 40%;
+    shape-outside: url(../images/lady.png);
   }
+
   .boxtwo .subhead {
+    padding-right: 5.5rem;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
@@ -410,15 +449,41 @@
     line-height: normal;
   }
   .boxtwo .quote {
+    margin-top: 0;
     width: 44.8125rem;
     color: #777;
     font-family: Calibri;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
+    width: 80%;
     line-height: normal;
   }
-  .boxtwo b {
+
+  .headingwithimg {
+    display: flex;
+    align-items: center;
+    gap: 1.375rem;
+    margin-bottom: 0;
+  }
+
+  .headingwithimg p {
+    font-weight: 700;
+    font-size: 1.625rem;
+    margin-bottom: 0;
+  }
+  .headingwithimg a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 1.625rem;
+  }
+
+  .headingwithimg img {
+    width: 1.6875rem;
+    height: 1.6875rem;
+  }
+  /* .boxtwo b {
     color: #000;
     font-family: Calibri;
     font-size: 1.625rem;
@@ -430,24 +495,24 @@
     width: 1.6875rem;
     height: 1.6875rem;
     flex-shrink: 0;
-  }
+  } */
   .contains {
     display: none;
   }
   .boxtwo .containsdown {
-    line-height: 0;
+    margin-left: 4%;
     display: inline;
     left: 40%;
+    bottom: 10%;
     position: relative;
     width: 100%;
   }
   .boxtwo .containsdown .bbox {
     position: absolute;
     left: 80%;
-    top: 50%;
     z-index: -10;
-    width: 25.20556rem;
-    height: 17.33556rem;
+    aspect-ratio: 25.20556/ 17.33556;
+    min-width: 20rem;
     flex-shrink: 0;
     background: #0a4988;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -465,10 +530,13 @@
   }
 
   .boxthree {
+    margin-left: 5.5rem;
+
+    margin-right: 5.5rem;
     padding-top: 2rem;
   }
 
-  .boxthree b {
+  /* .boxthree b {
     color: #000;
     font-family: Calibri;
     font-size: 1.625rem;
@@ -481,14 +549,13 @@
     width: 1.6875rem;
     height: 1.6875rem;
     flex-shrink: 0;
-  }
+  } */
 
   .boxthree {
-    padding-left: 3rem;
-
     width: 100%;
   }
   .boxthree .quote {
+    margin-top: 0;
     width: 80%;
     color: #777;
     font-family: Calibri;
@@ -518,17 +585,17 @@
   .boxthree .containsdown {
     line-height: 0;
     display: inline;
-    left: 80%;
+    left: 77.5%;
     position: relative;
     width: 100%;
   }
   .boxthree .containsdown .bbox {
+    aspect-ratio: 17.1875/23.8125;
     position: absolute;
-    left: 80%;
+    left: 60%;
     top: 50%;
     z-index: -10;
-    width: 17.1875rem;
-    height: 23.8125rem;
+    min-width: 15rem;
     flex-shrink: 0;
     flex-shrink: 0;
     border-radius: 1.25rem;
@@ -568,56 +635,8 @@
   .contains {
     display: none;
   }
-  .containsmobile .bbox {
-    position: absolute;
-    height: 165px;
-    width: 200px;
-    margin-left: 22%;
-    background: #0a4988;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-  }
 
-  .containsmobile img {
-    margin-bottom: 40%;
-    position: absolute;
-    max-width: 100%;
-    z-index: 5;
-    height: 160px;
-    left: 25%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  .containsmobileman .bbox {
-    margin-top: 31%;
-    position: absolute;
-    height: 255px;
-    width: 180px;
-    margin-left: 29%;
-    background: #0a4988;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-  }
-
-  .containsmobileman img {
-    margin-top: 30%;
-    margin-left: 30%;
-    position: absolute;
-    max-width: 100%;
-    z-index: 5;
-    height: 250px;
-    width: 180px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  b {
-    font-size: 20px;
-  }
   .boxthree {
-    padding-left: 3%;
-
     width: 100%;
   }
   .boxfour {
@@ -664,8 +683,7 @@
     margin-left: 20%;
     height: 250px;
   }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+
   body {
     font-size: 16px;
     background: #f4eedb;
@@ -680,6 +698,7 @@
     font-weight: 700;
     line-height: 0.5rem;
     text-align: center;
+    margin: 1rem;
   }
 
   .underline {
@@ -710,19 +729,22 @@
     font-style: normal;
     font-weight: 700;
     line-height: 0.5rem;
+    margin-bottom: 3rem;
   }
 
   .boxone {
+    margin-left: 1rem;
+    margin-right: 1rem;
     position: relative;
 
     width: 100%;
   }
   .boxtwo {
+    margin-left: 1rem;
+    margin-right: 1rem;
     width: 100%;
   }
   .boxone .subhead {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     width: 100%;
     color: #0a4988;
     font-family: Calibri;
@@ -733,8 +755,7 @@
   }
 
   .boxone .quote {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
     color: #777;
     font-family: Calibri;
     font-size: 1rem;
@@ -744,8 +765,7 @@
   }
 
   .boxone .para {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
     color: #000;
     font-family: Calibri;
     font-size: 0.8125rem;
@@ -762,8 +782,8 @@
     left: 40%;
   }
   .boxtwo .collective1 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
+
     color: #000;
     font-family: Calibri;
     font-size: 0.75rem;
@@ -772,8 +792,8 @@
     line-height: normal;
   }
   .boxtwo .collective2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
+
     color: #000;
     font-family: Calibri;
     font-size: 0.75rem;
@@ -783,7 +803,6 @@
   }
 
   .boxtwo .subhead {
-    padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -806,8 +825,7 @@
     line-height: normal;
   }
   .boxtwo .quote {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
     color: #777;
     font-family: Calibri;
     font-size: 0.9375rem;
@@ -815,7 +833,7 @@
     font-weight: 700;
     line-height: normal;
   }
-  .boxtwo b {
+  /* .boxtwo b {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     color: #000;
@@ -829,22 +847,65 @@
     width: 1.125rem;
     height: 1.125rem;
     flex-shrink: 0;
+  } */
+  .headingwithimg {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .headingwithimg p {
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+  }
+  .headingwithimg a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 1.125rem;
+  }
+
+  .headingwithimg img {
+    width: 1.125rem;
+    height: 1.125rem;
   }
   .contains .containsdown {
     display: none;
   }
+  .containsmobile img {
+    position: absolute;
+  }
+
+  .containsmobileman .bbox {
+    margin-top: 31%;
+    position: absolute;
+    height: 255px;
+    width: 180px;
+    margin-left: 29%;
+    background: #0a4988;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
   .boxtwo .containsmobile {
     line-height: 0;
     display: inline;
-    left: 12.5%;
     position: relative;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .boxtwo .containsmobile .bbox {
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 0;
+    position: relative;
     z-index: -10;
-    width: 14.85188rem;
-    height: 9.90606rem;
+    aspect-ratio: 14.85188/9.90606;
+    min-width: 14.85188rem;
+    max-width: 18rem;
     flex-shrink: 0;
     background: #0a4988;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -852,45 +913,34 @@
   }
 
   .boxtwo .containsmobile img {
-    top: -0.5rem;
-    margin-left: -3rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
     object-fit: cover;
     border-radius: 0.625rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: calc(100% - 0.05rem);
-    height: calc(100% - 0.05rem);
+    width: calc(100% - 0.5rem);
+    height: calc(100% - 0.5rem);
+  }
+
+  .containsmobileman img {
+    margin-top: 30%;
+    margin-left: 30%;
+    position: absolute;
+    max-width: 100%;
+    z-index: 5;
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .boxthree {
-    padding-top: 12rem;
-  }
-
-  .boxthree b {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    color: #000;
-    font-family: Calibri;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .boxthree .linkedin {
-    width: 1.125rem;
-    height: 1.125rem;
-    flex-shrink: 0;
-  }
-
-  .boxthree {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
+    margin-left: 1rem;
+    margin-right: 1rem;
     width: 100%;
   }
   .boxthree .quote {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
     color: #777;
     font-family: Calibri;
     font-size: 0.9375rem;
@@ -899,8 +949,8 @@
     line-height: normal;
   }
   .boxthree .collective1 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 90%;
+
     color: #000;
     font-family: Calibri;
     font-size: 0.75rem;
@@ -914,8 +964,7 @@
   }
 
   .boxthree .collective2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 100%;
     color: #000;
     font-family: Calibri;
     font-size: 0.75rem;
@@ -936,8 +985,8 @@
     left: 40%;
     top: 50%;
     z-index: -10;
-    width: 7.8125rem;
-    height: 10.875rem;
+    aspect-ratio: 7.8125/10.875;
+    min-width: 8.5rem;
     flex-shrink: 0;
     border-radius: 1.25rem;
     background: #0a4988;
